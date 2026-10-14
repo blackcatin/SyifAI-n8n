@@ -1,0 +1,14 @@
+numpy
+mlflow
+requests
+sqlalchemy
+fastapi
+huggingface-hub
+pillow
+torch
+torchvision
+psycopg2-binary
+python-dotenv
+uvicorn
+opencv-python
+python-dotenv

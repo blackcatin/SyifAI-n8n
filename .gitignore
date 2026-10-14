@@ -1,0 +1,30 @@
+# === MACHINE LEARNING MODELS ===
+# Mengabaikan semua file model PyTorch berbobot besar jika disimpan lokal
+*.pth
+*.pt
+*.onnx
+*.pkl
+
+# === ENVIRONMENT & SECURITY ===
+# Mengabaikan file rahasia enkripsi n8n atau API keys
+.env
+backend/.env
+backend/.env.backup
+
+backend/trained_models/
+*.local
+credentials.json
+
+# === PYTHON & JUPYTER JUNK ===
+# Mengabaikan file sampah otomatis bentukan Python & cache saat running
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === OPERATING SYSTEM JUNK ===
+# Mengabaikan file log sampah otomatis bawaan Windows
+Thumbs.db
+Desktop.ini

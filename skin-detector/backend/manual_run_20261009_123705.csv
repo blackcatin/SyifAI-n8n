@@ -1,0 +1,6 @@
+"tahap","durasi_detik","langkah_manual","status"
+"1_Ingestion","1.48","2","OK"
+"2_Preparation","16.04","5","OK"
+"3_BuildModel","11.33","1","GAGAL/BERHENTI"
+"TOTAL","28.87","8","error=1"
+"WAKTU_OPERATOR (total - training)","17.54","8",""
